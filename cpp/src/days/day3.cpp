@@ -108,7 +108,7 @@ std::string Day3::runPart2() {
 					}
 				}
 			}
-            i++;
+			i++;
 		} else {
 			line += c;
 		}

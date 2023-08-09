@@ -31,9 +31,9 @@ string Day1::runPart1() {
 string Day1::runPart2() {
 	static const size_t maxValsSize = 3;
 	int maxVals[maxValsSize] = {0, 1, 2};
-    maxVals[0] = 0;
-    maxVals[1] = 1;
-    maxVals[2] = 2;
+	maxVals[0] = 0;
+	maxVals[1] = 1;
+	maxVals[2] = 2;
 	string temp = "";
 	int currentValue = 0;
 	for (char& c : input1) {
