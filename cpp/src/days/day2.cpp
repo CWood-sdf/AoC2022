@@ -3,8 +3,8 @@
 #include <iostream>
 
 using std::string;
-void Day2::init() {
-	loadForDay(2);
+void Day2::init(bool test) {
+	loadForDay(2, test);
 }
 std::string Day2::runPart1() {
 	string line = "";

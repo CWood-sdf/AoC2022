@@ -24,7 +24,7 @@ class Day2 : public AoCSolution {
 
 public:
 	~Day2() = default;
-	void init();
+	void init(bool test = false);
 	std::string runPart1();
 	std::string runPart2();
 };

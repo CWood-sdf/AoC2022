@@ -3,8 +3,8 @@
 #include <iostream>
 #include <vector>
 using std::string;
-void Day1::init() {
-	loadForDay(1);
+void Day1::init(bool test) {
+	loadForDay(1, test);
 }
 string Day1::runPart1() {
 	int currentMax = 0;
