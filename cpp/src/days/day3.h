@@ -1,8 +1,9 @@
-#include "Day.h"
-class Day1 : public AoCSolution {
+
+#include "../Day.h"
+class Day3 : public AoCSolution {
 
 public:
-	~Day1() = default;
+	~Day3() = default;
 	void init();
 	std::string runPart1();
 	std::string runPart2();

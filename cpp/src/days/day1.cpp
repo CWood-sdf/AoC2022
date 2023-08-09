@@ -1,5 +1,5 @@
 #include "day1.h"
-#include "utils.h"
+#include "../utils.h"
 #include <iostream>
 #include <vector>
 using std::string;

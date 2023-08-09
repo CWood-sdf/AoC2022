@@ -1,3 +1,5 @@
+#ifndef DAY_H
+#define DAY_H
 #include <fstream>
 #include <string>
 class AoCSolution {
@@ -29,3 +31,4 @@ public:
 	virtual std::string runPart1() = 0;
 	virtual std::string runPart2() = 0;
 };
+#endif
