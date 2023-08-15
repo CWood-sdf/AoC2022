@@ -40,7 +40,7 @@ all: $(EXEC)
 $(EXEC): $(OBJ)
 	$(CXX) $(CXXFLAGS) $(OBJ) -o $(EXEC) $(LD_FLAGS)
 
-$(BUILD_DIR)/%.$(OBJ_EXT): %.cpp $(HEADERS) Makefile
+$(BUILD_DIR)/%.$(OBJ_EXT): %.cpp Makefile
 	@$(MKDIR)
 	@echo $<
 	@$(CXX) -c $< $(CXXFLAGS) -o $@

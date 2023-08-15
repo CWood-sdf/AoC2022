@@ -7,7 +7,7 @@ using std::size_t;
 using std::string;
 int main() {
 	std::cout << (int)('v' - 'a') << std::endl;
-	AoCSolution* solution = new Day5();
+	AoCSolution* solution = new Day7();
 	solution->init(false);
 	auto start = std::chrono::high_resolution_clock::now();
 	string part1 = solution->runPart1();
